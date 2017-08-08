@@ -36,14 +36,15 @@ selected in the evaluation of the test data.
 Fig. 1 below shows the prediction results for the test data in blue. It also shows the training data in orange and the prediction results 
 for the training data in red. 
 
-<img src="./images/figure_1.png" width="1000">
+![Figure 1](./images/figure_1.png)
+*Figure 1: Model Prediction (Random Forest Regression Model)*
 
-Figure 1: Model Prediction (Random Forest Regression Model)
 Fig. 2 shows the magnitude of the difference between the predicted page count and actual page count in the training data. As may be 
 observed from Fig. 2, the differences between actual and predicted page count is about +/- 50 with a few outliers.
 
-<img src="./images/figure_2.png" width="1000">
-Figure 2: Model Error Magnitude
+![Figure 2](./images/figure_2.png)
+*Figure 2: Model Error Magnitude*
+
 
 ##	Answers to addition questions
 Given that Python starts with 0 = Monday and 6 = Sunday, the day of the week with the highest week of support request is Saturday and that
