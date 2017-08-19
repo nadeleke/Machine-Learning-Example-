@@ -2,11 +2,11 @@
 
 In this report, I would be discussing the following:
 
-1. [The training data](README.md#The-training-data)
-2. [Regression models evaluated and parameterization](README.md#Regression-models-evaluated-and-parameterization)
-3. [Selection of a model for prediction on the test data](README.md#Selection-of-a-model-for-prediction-on-the-test-data)
-4. [Model prediction result](README.md#Model-prediction-result)
-5. [Answers to addition questions](README.md#Answers-to-addition-questions)
+1. [The training data](README.md#the-training-data)
+2. [Regression models evaluated and parameterization](README.md#regression-models-evaluated-and-parameterization)
+3. [Selection of a model for prediction on the test data](README.md#selection-of-a-model-for-prediction-on-the-test-data)
+4. [Model prediction result](README.md#model-prediction-result)
+5. [Answers to addition questions](README.md#answers-to-addition-questions)
 
 # The training data
 The training data included both discrete and continuous feature columns. Columns like “calendar_code” and “events” are discrete. Others, 
@@ -46,7 +46,7 @@ observed from Fig. 2, the differences between actual and predicted page count is
 |:--:| 
 | *Figure 2: Model Error Magnitude* |
 
-##	Answers to addition questions
+#	Answers to addition questions
 Given that Python starts with 0 = Monday and 6 = Sunday, the day of the week with the highest week of support request is Saturday and that
 with the least is Thursday.
 
