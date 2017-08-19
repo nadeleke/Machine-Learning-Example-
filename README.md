@@ -46,7 +46,7 @@ observed from Fig. 2, the differences between actual and predicted page count is
 |:--:| 
 | *Figure 2: Model Error Magnitude* |
 
-#	Answers to addition questions
+##	Answers to addition questions
 Given that Python starts with 0 = Monday and 6 = Sunday, the day of the week with the highest week of support request is Saturday and that
 with the least is Thursday.
 
