@@ -1,13 +1,12 @@
-# Machine Learning Example
-## Page Count Prediction
+# Page Count Prediction
 
 In this report, I describe how to predict page count using historical data. In the following sections I would be discussing briefly the following:
 
-1. [The training data](README.md#The-training-data)
-2. [Regression models evaluated and parameterization](README.md#Regression-models-evaluated-and-parameterization)
-3. [Selection of a model for prediction on the test data](README.md#Selection-of-a-model-for-prediction-on-the-test-data)
-4. [Model prediction result](README.md#Model-prediction-result)
-5. [Answers to addition questions](README.md#Answers-to-addition-questions)
+1. [The training data](README.md#the-training-data)
+2. [Regression models evaluated and parameterization](README.md#regression-models-evaluated-and-parameterization)
+3. [Selection of a model for prediction on the test data](README.md#selection-of-a-model-for-prediction-on-the-test-data)
+4. [Model prediction result](README.md#model-prediction-result)
+5. [Answers to addition questions](README.md#answers-to-addition-questions)
 
 ## The training data
 The training data included both discrete and continuous feature columns. Columns like “calendar_code” and “events” are discrete. Others, 
@@ -27,12 +26,12 @@ depth parameter to limit the tree depth. For the random forest regression model 
 default value of 10. For the K-nearest neighbor regression model we adjusted the number of neighbors to be used in k-neighbor queries from 
 its default value of 5.
 
-##	The selection of a model for prediction using the test data
+##	Selection of a model for prediction on the test data
 The model used for prediction was selected based on its performance in predictions on the training data.  The Random Forest Regression 
 model performed best particularly for the case where the number of trees was set to 15 (greater than the default) and was therefore 
 selected in the evaluation of the test data. 
 
-##	Results
+##	Model prediction result
 Fig. 1 below shows the prediction results for the test data in blue. It also shows the training data in orange and the prediction results 
 for the training data in red. 
 
