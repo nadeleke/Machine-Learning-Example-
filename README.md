@@ -1,5 +1,4 @@
-# Machine Learning Example
-## Page Count Prediction
+# Page Count Prediction
 
 In this report, I would be discussing the following:
 
