@@ -3,7 +3,7 @@
 In this report, I describe how to predict page count using historical data. In the following sections I would be discussing briefly the following:
 
 1. [The training data](README.md#the-training-data)
-2. [Regression models evaluated and parameterization](README.md#regression-models-evaluated-and-parameterization)
+2. [Regression models and parameterization](README.md#regression-models-evaluated-and-parameterization)
 3. [Selection of a model for prediction on the test data](README.md#selection-of-a-model-for-prediction-on-the-test-data)
 4. [Model prediction result](README.md#model-prediction-result)
 5. [Answers to addition questions](README.md#answers-to-addition-questions)
@@ -15,7 +15,7 @@ in the next section. The “date” column is converted to seconds and is theref
 representing the day of the week was also generated using the datetime module. The “events” feature column is parsed to identify all unique
 values, which were then assigned numerical values, thereby making them discrete.  
 
-##	Regression models evaluated and parameterization
+##	Regression models and parameterization
 Due to the mixed feature types available in our data sets, we decided to evaluate only models that perform well with both discrete and 
 continuous features simultaneously. The models evaluated include: (1) Decision Tree Regressor (2) Gaussian Naïve Bayes (3) Random Forest 
 Regressor and (4) K-Nearest Neighbor Regressor. The kFold technique was used for cross validation with 10 splits applied to all the models 
