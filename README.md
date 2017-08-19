@@ -1,7 +1,7 @@
 # Machine Learning Example
 ## Page Count Prediction
 
-In this report, I would be discussing the following:
+In this report, I describe how to predict page count using historical data. In the following sections I would be discussing briefly the following:
 
 1. [The training data](README.md#The-training-data)
 2. [Regression models evaluated and parameterization](README.md#Regression-models-evaluated-and-parameterization)
